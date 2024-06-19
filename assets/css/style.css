@@ -1,0 +1,12 @@
+/* Imp[ort Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+/* Override default style by Wildcard selector */
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box
+}
+
+
+
