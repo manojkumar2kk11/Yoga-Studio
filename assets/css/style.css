@@ -87,16 +87,54 @@ nav{
 
 
 
+/* Main */
+main {
+    /* Push the footer down*/
+    flex: 1 0 auto;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
 /* Main hero section */
 #hero {   
     width: 100%;
     height: 600px;
-    background: url("../images/Yoga-hero.webp") no-repeat center center/cover;
-    
+    background: url("../images/Yoga-hero.webp") no-repeat center center/cover ;
+    position: relative;
+}
+
+/* Reasons*/
+#reasons {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    font-size: 300%;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+
+#reasons > p {
+    font-size: 150%;
+    text-align: center;
+    margin-bottom: 30px;  
 }
 
 
+#benefits-physical,#benefits-peace, #benefits-mental,#benefits-stability {
+    line-height: 25px;
+    margin-bottom: 5px;
+}
 
+#benefits-physical hr,#benefits-peace hr, #benefits-mental hr,#benefits-stability hr {
+    padding: 0 5px;
+}
+
+#benefits-physical p,#benefits-peace p, #benefits-mental p,#benefits-stability p {
+    padding: 0 15px;
+}
 
 
 /* Footer */
@@ -112,4 +150,31 @@ nav{
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+
+
+/* Media tablets and greater screen(> 768px ) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;   
+    }
+
+    #nav-menu {
+        display: flex;
+    }
+
+    #nav-menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
