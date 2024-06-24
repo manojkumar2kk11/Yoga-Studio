@@ -136,6 +136,36 @@ main {
     padding: 0 15px;
 }
 
+/* Offers*/
+#schedule {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#schedule h2 {
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 30px;  
+}
+
+#training-peroid{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#training-peroid div {
+    padding: 30px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.scale-with-grid{
+    max-width: 100;
+}
+
+
 
 /* Footer */
 #social-media-net {
