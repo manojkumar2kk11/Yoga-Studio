@@ -18,8 +18,6 @@ body {
     flex-direction: column;
 }
 
-
-
 h1,
 h2,
 h3 {
@@ -48,7 +46,6 @@ header a {
 }
 
 #nav-menu {
-
     font-size: 120%;
     letter-spacing: 3px;
     list-style-type: none;
@@ -87,8 +84,6 @@ nav {
     font-size: 3rem;
 }
 
-
-
 /* Main */
 main {
     /* Push the footer down*/
@@ -105,8 +100,6 @@ main {
     background: url("../images/Yoga-hero.webp") no-repeat center center/cover;
     position: relative;
 }
-
-
 
 /* Main about us hero section */
 #aboutushero {
@@ -134,7 +127,6 @@ main {
     margin-bottom: 30px;
 }
 
-
 #benefits-physical,
 #benefits-peace,
 #benefits-mental,
@@ -160,7 +152,7 @@ main {
 /* Offers*/
 #schedule {
     width: 80%;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 #schedule h2 {
@@ -169,22 +161,15 @@ main {
     margin-bottom: 30px;
 }
 
+/* training period */
 #training-peroid {
     display: flex;
+    gap: 3rem;
     flex-wrap: wrap;
-
+    justify-content: center;
 }
 
-#training-peroid div {
-    padding: 30px;
-    text-align: center;
-    flex-basis: 200px;
-    flex-grow: 1;
-}
 
-.scale-with-grid {
-    max-width: 100;
-}
 
 
 /* Style Gallery */
@@ -197,21 +182,18 @@ main {
     line-height: 0;
 }
 
-
 /* Join Us form */
-
 #join-us {
-    background-image: url("../images/Signup_style.webp");
+    background-image: url("../images/signup_style.jpg");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-
 }
 
 #join-us-form {
     color: #ffffff;
-    background-color: rgba(30, 30, 30, 0.4);
+    background-color: rgba(60, 60, 60, 0.9);
     padding: 10px;
 }
 
@@ -234,7 +216,7 @@ main {
 .radiobtn {
     width: 100%;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
 
 .joinbtn {
@@ -242,14 +224,10 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #5a6037;
+    background-color:gray;
     color: #fafafa;
 
 }
-
-
-
-
 
 /* Footer */
 #social-media-net {
@@ -265,8 +243,6 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
-
-
 
 /* Media tablets and greater screen(> 768px ) */
 @media screen and (min-width: 768px) {
@@ -299,7 +275,7 @@ main {
         position: relative;
     }
 
-    #join-us-form{
+    #join-us-form {
         max-width: 500px;
         position: absolute;
         left: 1%;
@@ -311,10 +287,10 @@ main {
         color: #454b1b;
     }
 
-     /* Style Gallery */
+    /* Style Gallery */
     #stylephotos {
-    column-count: 4;
-}
+        column-count: 4;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
