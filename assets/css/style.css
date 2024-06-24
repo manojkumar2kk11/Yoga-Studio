@@ -2,26 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 /* Override default style by Wildcard selector */
-*{
-    padding:0;
-    margin:0;
-    box-sizing:border-box
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
 }
 
 /*Common body styles*/
-body{
+body {
     /*common project styles*/
-    color:#151515ef;
-    font-family:'Roboto+Serif',san-serif;
-    min-height:100vh;
-    display:flex;
-    flex-direction: column ;
+    color: #151515ef;
+    font-family: 'Roboto+Serif', san-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
 
-h1, h2, h3{
-    font-family: 'Poppins',sans-serif;
+h1,
+h2,
+h3 {
+    font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #0f0f10;
@@ -45,14 +47,14 @@ header a {
     color: inherit;
 }
 
-#nav-menu{
+#nav-menu {
 
     font-size: 120%;
     letter-spacing: 3px;
     list-style-type: none;
 }
 
-#nav-menu > li{
+#nav-menu>li {
     margin-bottom: 1em;
 }
 
@@ -61,14 +63,14 @@ header a {
 }
 
 /* nav style */
-nav{
+nav {
     position: absolute;
     background-color: #ffffff;
-    width:100%;
-    left:0;
+    width: 100%;
+    left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display:none;
+    display: none;
     top: 100%;
 }
 
@@ -97,10 +99,10 @@ main {
 }
 
 /* Main hero section */
-#hero {   
+#hero {
     width: 100%;
     height: 600px;
-    background: url("../images/Yoga-hero.webp") no-repeat center center/cover ;
+    background: url("../images/Yoga-hero.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -113,26 +115,35 @@ main {
 #reasons h2 {
     font-size: 300%;
     text-align: center;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
 
-#reasons > p {
+#reasons>p {
     font-size: 150%;
     text-align: center;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
 
 
-#benefits-physical,#benefits-peace, #benefits-mental,#benefits-stability {
+#benefits-physical,
+#benefits-peace,
+#benefits-mental,
+#benefits-stability {
     line-height: 25px;
     margin-bottom: 5px;
 }
 
-#benefits-physical hr,#benefits-peace hr, #benefits-mental hr,#benefits-stability hr {
+#benefits-physical hr,
+#benefits-peace hr,
+#benefits-mental hr,
+#benefits-stability hr {
     padding: 0 5px;
 }
 
-#benefits-physical p,#benefits-peace p, #benefits-mental p,#benefits-stability p {
+#benefits-physical p,
+#benefits-peace p,
+#benefits-mental p,
+#benefits-stability p {
     padding: 0 15px;
 }
 
@@ -145,13 +156,13 @@ main {
 #schedule h2 {
     font-size: 200%;
     text-align: center;
-    margin-bottom: 30px;  
+    margin-bottom: 30px;
 }
 
-#training-peroid{
+#training-peroid {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
 
 #training-peroid div {
@@ -161,9 +172,60 @@ main {
     flex-grow: 1;
 }
 
-.scale-with-grid{
+.scale-with-grid {
     max-width: 100;
 }
+
+
+/* Join Us form */
+
+#join-us {
+    background-image: url("../images/Signup_style.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+
+}
+
+#join-us-form {
+    color: #ffffff;
+    background-color: rgba(30, 30, 30, 0.4);
+    padding: 10px;
+}
+
+#join-us-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.radiobtn {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.joinbtn {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #5a6037;
+    color: #fafafa;
+}
+
+
 
 
 
@@ -193,7 +255,7 @@ main {
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding-right: 1rem;   
+        padding-right: 1rem;
     }
 
     #nav-menu {
@@ -206,5 +268,24 @@ main {
 
     .nav-toggle-label {
         display: none;
+    }
+
+    /* Signup page */
+
+    #join-us {
+        background-position: center;
+        position: relative;
+    }
+
+    #join-us-form{
+        max-width: 500px;
+        position: absolute;
+        left: 1%;
+        top: 50px;
+    }
+
+    .joinbtn:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
