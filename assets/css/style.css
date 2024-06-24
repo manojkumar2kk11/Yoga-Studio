@@ -177,6 +177,17 @@ main {
 }
 
 
+/* Style Gallery */
+#stylegallery img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#stylephotos {
+    line-height: 0;
+}
+
+
 /* Join Us form */
 
 #join-us {
@@ -223,6 +234,7 @@ main {
     font-size: 100%;
     background-color: #5a6037;
     color: #fafafa;
+
 }
 
 
@@ -287,5 +299,22 @@ main {
     .joinbtn:hover {
         background-color: #fafafa;
         color: #454b1b;
+    }
+
+     /* Style Gallery */
+    #stylephotos {
+    column-count: 4;
+}
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* StyleGallery */
+    #stylephotos {
+        column-count: 5;
     }
 }
