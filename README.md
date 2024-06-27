@@ -6,6 +6,26 @@ Responsive screen image for the different device, used https://ui.dev/amirespons
 
 ![Responsive screen](assets/images/responsive_read.png)
 
+
+## Project Goals 
+### User Goals
+- Finding a restaurantYoga Club that offers a Child, Adult, Pregnancy, Online therapy, Teacher trainig.
+- See a full schedule plan for day for each session.
+- Provide the yoga style poses
+
+### Site Owner Goals
+- Increase the number of yoga club joiners.
+- Promote the bussines..
+- Provide essential information about the yoga to customers.
+
+## User Experience
+
+### Target Audience
+- People looking for a club to learn yoga
+- People looking for yoga teacher training
+- People looking for a family join to the yoga class
+- People looking for pregnancy yoga class.
+
 # Features
 ## Nagivation 
 Top of the page show the yoga club at the left corner and in the right corner show the navigation link for Home, styles and signup page
@@ -48,8 +68,25 @@ Tested the performance by using Google Lighthouse in Google Chrome Developer Too
 
 ## HTML
     No error were returned when passing through website: https://validator.w3.org/#validate_by_input
+
+<details><summary>Home</summary>
+<img src="assets/images/home_Checker.png">
+</details>
+
+<details><summary>Styles</summary>
+<img src="assets/images/YogaStyles_Checker.png">
+</details>
+
+<details><summary>SignUp</summary>
+<img src="assets/images/SignUp_Checker.png">
+</details>
+
 ## CSS
     No error were returned when passing through website: https://jigsaw.w3.org/css-validator/#validate_by_input
+
+<details><summary>CSS style</summary>
+<img src="assets/images/CssStyle_Checker.png">
+</details>   
 
 # Browser compatability
 Tested on the following browsers: <br>
@@ -67,9 +104,30 @@ Microsoft Egde
 
 # Deployment
 
-The website was deployed using GitHub, in the setting pages, by change the default branch from base to main.
-The fork can be done by the option in the github respository, its located in the top right corner.
-The clone can be done by the option in the code button in the github respository.
+The master branch of this repository contains the most up-to-date version and has been utilized for the deployed version of the site. This project was created using the Code Institute student template.
+
+Code Institute Template for CodeAnywhere
+
+  - Click Use This Template button.
+  - Give your repository a name, and description.
+  - Open CodeAnywhere EDI and log into your account.
+  - Click New Workspace button.
+  - Create a workspace from your project repository by creating a clone.
+Creating a clone
+
+  - From the repository, click Code.
+  - In the Clone >> HTTPS section, copy the clone URL for the repository.
+  - Paste a link into the designated area on the CodeAnywhere.
+
+Forking
+
+  - From the repository, click Fork.
+  - Give your repository a name.
+  - Click Create fork.
+
+# Technologies
+  - HTML 
+  - CSS  
 
 # Credits
 
